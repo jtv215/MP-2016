@@ -1,0 +1,50 @@
+<residencia>
+  <nombre>La Mar Salá</nombre>
+  <habitaciones>
+    <habitacion>
+      <numero>101</numero>
+    </habitacion>
+    <habitacion>
+      <numero>102</numero>
+    </habitacion>
+    <habitacion>
+      <numero>103</numero>
+    </habitacion>
+    <habitacion>
+      <numero>201</numero>
+    </habitacion>
+    <habitacion>
+      <numero>202</numero>
+    </habitacion>
+  </habitaciones>
+  <residente>
+    <residente>
+      <nombre>Martinez Gomez, Adrian</nombre>
+      <dni>27272727</dni>
+      <sexo>V</sexo>
+      <fechaNacimiento>1940-02-12 00:00:00.0 UTC</fechaNacimiento>
+    </residente>
+    <residente>
+      <nombre>Lopez Lopez, Luisa</nombre>
+      <dni>27272728</dni>
+      <sexo>M</sexo>
+      <fechaNacimiento>1940-03-11 23:00:00.0 UTC</fechaNacimiento>
+    </residente>
+  </residente>
+  <reservas>
+    <reserva>
+      <residente reference="../../../residente/residente"/>
+      <habitacion reference="../../../habitaciones/habitacion"/>
+      <FechaEntrada>2007-01-11 23:00:00.0 UTC</FechaEntrada>
+      <FechaSalida>2007-06-11 22:00:00.0 UTC</FechaSalida>
+      <numeroReserva>135</numeroReserva>
+    </reserva>
+    <reserva>
+      <residente reference="../../../residente/residente[2]"/>
+      <habitacion reference="../../../habitaciones/habitacion[2]"/>
+      <FechaEntrada>2007-02-11 23:00:00.0 UTC</FechaEntrada>
+      <FechaSalida>2007-06-11 22:00:00.0 UTC</FechaSalida>
+      <numeroReserva>136</numeroReserva>
+    </reserva>
+  </reservas>
+</residencia>

@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Calculadora Sencilla</title>
+	</head>
+	<body>
+	<applet
+	codebase="../../../../bin"
+	code= "org/mp/sesion09/CalculadoraSencilla.class"
+	width=350
+	height=350>
+	</applet>
+	</body>
+</html>
